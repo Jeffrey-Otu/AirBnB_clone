@@ -1,10 +1,13 @@
 #!/usr/bin/python3
-"""Module for City class."""
-
-from models.base_model import BaseModel
+"""
+Defines the state model
+"""
+from .base_model import BaseModel
 
 
 class City(BaseModel):
-    """Class representing a City."""
+    """
+    Blueprint for City objects
+    """
     state_id = ""
     name = ""

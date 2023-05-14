@@ -1,11 +1,14 @@
 #!/usr/bin/python3
-"""Module for Review class."""
-
-from models.base_model import BaseModel
+"""
+Defines the state model
+"""
+from .base_model import BaseModel
 
 
 class Review(BaseModel):
-    """Class representing a Review."""
-    place_id = ""
+    """
+    Blueprint for Review objects
+    """
     user_id = ""
+    place_id = ""
     text = ""
